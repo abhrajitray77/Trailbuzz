@@ -4,6 +4,7 @@
 /*html, body, heading */
 @layer base {
   body {
-    @apply bg-[#18102c] text-white;
+    @apply bg-[#18102c] text-white !scrollbar-thin !scrollbar-track-transparent
+    !scrollbar-track-indigo-500;
   }
 }
